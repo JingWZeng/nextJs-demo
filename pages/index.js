@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import Head from "next/Head";
 import Alert from "../components/alert";
 import Date from "../components/date";
 
@@ -23,10 +22,6 @@ export async function getStaticProps(){
 export default function Home({allPostsData}) {
   return (
     <div>
-        <Head>
-            <title>zengXPang</title>
-            <link rel="icon" href="favicon,ico"/>
-        </Head>
         {/*<Link href="/posts/first-post">go to posts/first-post</Link>*/}
         {/*<Image src="/vercel.svg" width={100} height={100}/>*/}
         {/*<Alert type="success" someType="1231312"/>*/}
